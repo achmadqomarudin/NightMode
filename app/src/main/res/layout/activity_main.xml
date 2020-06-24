@@ -9,18 +9,6 @@
     android:background="@color/mainBackground"
     tools:context=".MainActivity">
 
-<!--    <ImageView-->
-<!--        android:id="@+id/imageView"-->
-<!--        android:layout_width="250dp"-->
-<!--        android:layout_height="250dp"-->
-<!--        android:layout_marginTop="64dp"-->
-<!--        android:background="@drawable/teddy"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent"-->
-<!--        tools:ignore="ContentDescription"-->
-<!--        tools:srcCompat="@drawable/teddy" />-->
-
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="250dp"
