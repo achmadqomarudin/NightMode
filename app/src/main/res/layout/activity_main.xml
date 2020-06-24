@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/mainBackground"
+    tools:context=".MainActivity">
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView"-->
+<!--        android:layout_width="250dp"-->
+<!--        android:layout_height="250dp"-->
+<!--        android:layout_marginTop="64dp"-->
+<!--        android:background="@drawable/teddy"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        tools:ignore="ContentDescription"-->
+<!--        tools:srcCompat="@drawable/teddy" />-->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        app:srcCompat="@drawable/javalogo"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/raleway_semibold"
+        android:text="@string/strMode"
+        android:textColor="@color/textPrimary"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/raleway_semibold"
+        android:text="@string/strDummy"
+        android:textColor="@color/textSecondary"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btnSwitch"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/round_botton"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/raleway_semibold"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:paddingStart="10dp"
+        android:paddingEnd="32dp"
+        android:text="@string/strEnable"
+        android:drawableStart="@drawable/ic_weather"
+        android:drawablePadding="10dp"
+        android:textAllCaps="false"
+        android:textColor="@color/mainBackground" />
+
+    <Button
+        android:id="@+id/btnDetail"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_botton"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/raleway_semibold"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:paddingStart="10dp"
+        android:paddingEnd="32dp"
+        android:text="Detail App"
+        android:drawableStart="@drawable/ic_weather"
+        android:drawablePadding="10dp"
+        android:textAllCaps="false"
+        android:textColor="@color/mainBackground" />
+</LinearLayout>

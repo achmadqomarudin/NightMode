@@ -1,0 +1,8 @@
+<resources>
+    <string name="strEnable">Enable Light Mode</string>
+    <string name="strMode">App Dark Mode</string>
+    <string name="strDetail">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in est at odio condimentum hendrerit vel et tellus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus a mollis tortor. Sed a eros nibh. Proin magna metus, varius id tempor vitae, eleifend at odio. Donec porttitor velit at nisi accumsan interdum. Ut blandit malesuada pharetra.
+        \n\nNunc tempus pulvinar diam, at rhoncus orci scelerisque non. Donec finibus lorem nisi, eu ultrices odio egestas at. Quisque viverra augue sed quam porta tincidunt. Maecenas eros elit, dapibus ut tristique vitae, porta quis dui. Nullam egestas enim nec elit imperdiet laoreet. Quisque tristique massa non nisl tempor luctus.
+    </string>
+</resources>

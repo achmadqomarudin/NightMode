@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="teal">#008577</color>
+    <color name="aquaDeep">#00574B</color>
+    <color name="amaranth">#D81B60</color>
+    <color name="darkMineShaft">#222222</color>
+    <color name="codGray">#111111</color>
+    <color name="mineShaft">#303030</color>
+    <color name="doveGray">#646464</color>
+    <color name="tealLight">#808F97</color>
+    <color name="blueGray">#2D313D</color>
+</resources>
